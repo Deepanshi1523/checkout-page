@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.ef4feacc.css",
-    "main.js": "/react-gh-pages/static/js/main.8fb3202d.js",
-    "static/media/master-card.png": "/react-gh-pages/static/media/master-card.2dc118d7d5834bf45c9a.png",
-    "static/media/help-center.png": "/react-gh-pages/static/media/help-center.13b82c039eee0c594cc3.png",
-    "static/media/diners-club.png": "/react-gh-pages/static/media/diners-club.1f180de406bbc2003ee8.png",
-    "static/media/visa.png": "/react-gh-pages/static/media/visa.53412106e5dd0cc322c5.png",
-    "static/media/logo.jpg": "/react-gh-pages/static/media/logo.1012104da5d4cf15b343.jpg",
-    "static/media/google-pay.png": "/react-gh-pages/static/media/google-pay.851fc93336bdc00c0e63.png",
-    "static/media/info.png": "/react-gh-pages/static/media/info.49e0b432104428183fba.png",
-    "static/media/apple-pay.png": "/react-gh-pages/static/media/apple-pay.c05c5dbb2291b539538d.png",
-    "static/media/mountain4.jpg": "/react-gh-pages/static/media/mountain4.1e187292ab952a3ede52.jpg",
-    "index.html": "/react-gh-pages/index.html",
-    "static/media/arrow.svg": "/react-gh-pages/static/media/arrow.e1afe3574f55dd271589.svg",
-    "main.ef4feacc.css.map": "/react-gh-pages/static/css/main.ef4feacc.css.map",
-    "main.8fb3202d.js.map": "/react-gh-pages/static/js/main.8fb3202d.js.map"
+    "main.css": "/checkout-page/static/css/main.b087955d.css",
+    "main.js": "/checkout-page/static/js/main.b9fd5dbe.js",
+    "static/media/master-card.png": "/checkout-page/static/media/master-card.2dc118d7d5834bf45c9a.png",
+    "static/media/help-center.png": "/checkout-page/static/media/help-center.13b82c039eee0c594cc3.png",
+    "static/media/diners-club.png": "/checkout-page/static/media/diners-club.1f180de406bbc2003ee8.png",
+    "static/media/visa.png": "/checkout-page/static/media/visa.53412106e5dd0cc322c5.png",
+    "static/media/logo.jpg": "/checkout-page/static/media/logo.1012104da5d4cf15b343.jpg",
+    "static/media/google-pay.png": "/checkout-page/static/media/google-pay.851fc93336bdc00c0e63.png",
+    "static/media/info.png": "/checkout-page/static/media/info.49e0b432104428183fba.png",
+    "static/media/apple-pay.png": "/checkout-page/static/media/apple-pay.c05c5dbb2291b539538d.png",
+    "static/media/mountain4.jpg": "/checkout-page/static/media/mountain4.1e187292ab952a3ede52.jpg",
+    "index.html": "/checkout-page/index.html",
+    "static/media/arrow.svg": "/checkout-page/static/media/arrow.e1afe3574f55dd271589.svg",
+    "main.b087955d.css.map": "/checkout-page/static/css/main.b087955d.css.map",
+    "main.b9fd5dbe.js.map": "/checkout-page/static/js/main.b9fd5dbe.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef4feacc.css",
-    "static/js/main.8fb3202d.js"
+    "static/css/main.b087955d.css",
+    "static/js/main.b9fd5dbe.js"
   ]
 }
