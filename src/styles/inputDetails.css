@@ -1,0 +1,90 @@
+.userDetail-parent{
+  margin-top: 3rem;
+}
+
+.detail-heading{
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.006em;
+}
+
+.detail-para{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #60646C;
+}
+
+.name{
+  width: 100%;
+  height:3.5rem;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid #B9BBC6;
+}
+
+.country-phone{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.email-verify{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.input-field{
+  width: 48%;
+  height: 3.5rem;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid #B9BBC6;
+}
+
+.line{
+  color: #858586;
+  height: 1px;
+}
+
+.custom-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('../assets/arrow.svg');
+  background-size: 17px;
+  background-repeat: no-repeat;
+  background-position: 96% center;
+}
+
+/* For Firefox */
+.custom-select::-ms-expand {
+  display: none;
+}
+
+@media only screen and (max-width: 768px){
+  .country-phone{
+    flex-direction: column;
+    width: 100%;
+  }
+  .country-phone input, .country-phone select{
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .email-verify {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .email-verify input, .email-verify select{
+    width: 100%;
+    margin-bottom: 16px;
+  }
+}

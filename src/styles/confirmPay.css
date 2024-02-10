@@ -1,0 +1,52 @@
+.confirm-transaction-heading{
+  font-family: "Roboto" sans-serif;
+  font-size: 5vw;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 0.006em;
+}
+
+.cancellation-parent{
+  border: 1px solid #D3D4DB;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 16px 16px 16px 20px;
+  width: 100%;
+  margin-top: 30px;
+  height: 82px;
+  border-radius: 16px;
+  background-color: #FCFCFD;
+}
+
+.fa-circle-info:before{
+  color: #7E808A;
+}
+
+.cancel-heading{
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+.cancel-para{
+font-family:  "Open Sans", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+}
+
+@media only screen and (max-width: 768px){
+  .confirm-transaction-heading{
+    font-size: 32px;
+    line-height: 32px;
+    margin: 150px 0 25px 0px;
+  }
+
+  .cancellation-parent{
+    height: auto;
+  }
+}

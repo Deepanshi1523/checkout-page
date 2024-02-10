@@ -1,0 +1,51 @@
+.total-amount{
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.006em;
+}
+
+.currency-caution{
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  border: 1px solid #D3D4DB;
+  display: flex;
+  justify-content: center;
+  padding: 8px 10px;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.caution{
+  margin-top: 0.7rem;
+  color: black !important;
+}
+
+.about-currency{
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.currency-charged{
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-bottom: 0.4rem;
+}
+
+.currency-description{
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #60646C;
+  margin-bottom: 0;
+}

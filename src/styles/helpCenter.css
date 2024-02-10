@@ -1,0 +1,61 @@
+.heading{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.006em;
+}
+
+.description{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #60646C;
+}
+
+.helpCentre-div{
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  flex-direction: row;
+  background-color: #F9F9FB;
+  width: 85%;
+  padding: 24px 24px 15px 24px;
+  border-radius: 16px;
+}
+
+.helpCentre-desc{
+  width: 50%;
+}
+
+.seek-help{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+}
+
+.chat-btn{
+  width: 80%;
+  height: auto;
+  border-radius: 12px !important;
+}
+
+.chat-img{
+  width: 11rem;
+  height: 7.5rem;
+}
+
+@media only screen and (max-width: 768px){
+  .helpCenterContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .helpCentre-div{
+    width: 100%;
+  }
+}

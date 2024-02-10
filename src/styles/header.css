@@ -1,0 +1,51 @@
+.header-timer{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+  background-color: white;
+}
+
+.header-parent{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #60646C;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  height: 72px;
+}
+
+.logo{
+  width: 126.55px;
+  height: 42px;
+  mix-blend-mode: multiply;
+  filter: contrast(1);
+}
+
+.fawesome{
+  padding-right: 5px;
+}
+
+.arrow{
+  display: none !important;
+}
+
+/* CSS rules specific to mobile view */
+@media only screen and (max-width: 480px) {
+  .arrow{
+    display: block !important;
+  }
+  .logo{
+    display: none;
+  }
+  .help{
+    display: none;
+  }
+  .header-parent{
+    height: 68px;
+  }
+}

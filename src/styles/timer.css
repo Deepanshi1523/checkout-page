@@ -1,0 +1,29 @@
+.timer-parent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+  background-color: black;
+}
+
+.timer,.timer-parent h1{
+  margin-left: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: white;
+}
+
+.timer-parent h1{
+  margin-bottom: 0;
+}
+
+/* CSS rules specific to mobile view */
+@media only screen and (max-width: 480px) {
+  .timer-parent{
+    height: 34px;
+  }
+}

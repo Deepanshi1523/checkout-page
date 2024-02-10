@@ -1,0 +1,51 @@
+.additional-heading{
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.006em;
+}
+
+.additional-para{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #60646C;
+}
+
+.type-select{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.type{
+  width: 48%;
+  height:3.5rem;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid #B9BBC6;
+  padding-right: 20px;
+}
+
+.input-multi{
+  width: 100%;
+  height:3.5rem;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid #B9BBC6;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px){
+  .type-select{
+    flex-direction: column;
+    width: 100%;
+  }
+  .type-select select , .type-select input{
+    margin-top: 16px;
+    width: 100%;
+  }
+}
